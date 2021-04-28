@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>CheckOut</title>
+  </head>
+  <body>
+
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand brd" href="../Landing Page/index.html">Triphapa</a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link nv-l" href="#">Destinations <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nv-l" href="#">Accomodation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nv-l" href="Experience.html">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nv-l" href="#">Flights</a>
+          </li>
+        </ul>
+
+        <div class="registration">
+            <a href=""><i class="fa fa-shopping-cart mr-4"></i></a>
+            <a class="mr-3 lg" href="">Login</a>
+            <a class="rg mr-4" href="">Register</a>
+            <!-- <a href="#"><i class="fa fa-user-circle"></i></a> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- Checkout -->
+
+    <section class="checkout">
+      <div class="content-section">
+        <div class="check">
+          <div class="check_header mb-3">
+            <h4>Checkout</h4>
+          </div>
+          <div class="row">
+            <div class="col-md-7">
+              <div class="c_hd">
+                <div class="check_title">
+                  <h4>White Water Rafting</h4>
+                </div>
+
+                <div class="location">
+                  <span class="lc"><i class="fa fa-star"></i> 4.0</span>
+                  <span class="town">Sagana, Kenya</span>
+                </div>
+              </div>
+
+              <div class="guests">
+                <h5 class="title">Guests</h5>
+                <div class="adt">
+                  <div class="adults float-left">
+                    <span>Adults(age 16yrs +)</span><br>
+                    <span>Ksh 6000</span>
+                  </div>
+
+                  <div class="adt_frm">
+                    <form  class="float-right">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input type="button" value="-" class="button-minus" data-field="quantity">
+                          <input type="number" step="0" max="" value="0" name="quantity" class="quantity-field">
+                          <input type="button" value="+" class="button-plus" data-field="quantity">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="cd">
+                  <div class="children float-left">
+                    <span>Children(age 4 - 15)</span><br>
+                    <span>Ksh 3,500</span>
+                  </div>
+
+                  <div class="cd_frm">
+                    <form  class="float-right">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <input type="button" value="-" class="button-minus" data-field="quantity">
+                          <input type="number" step="0" max="" value="0" name="quantity" class="quantity-field">
+                          <input type="button" value="+" class="button-plus" data-field="quantity">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <br><br><br>
+                <a href="#">Add guest details (required)</a>
+              </div>
+
+              <!---- Included ---->
+
+              <div class="included">
+                <div class="header">
+                  <h5>Included</h5>
+                </div>
+
+                <div class="list">
+                  <div class="offer">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <div class="media">
+                          <i class="fa fa-car"></i>
+                          <div class="media-body">
+                            <span class="mt-0 fb">Transport</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-5">
+                        <div class="media">
+                          <i class="fa fa-bed"></i>
+                          <div class="media-body">
+                            <span class="mt-0 fb">Accomodation</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="offer">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <div class="media">
+                          <i class="fa fa-ship"></i>
+                          <div class="media-body">
+                            <span class="mt-0 fb">Food & Drinks</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-5">
+                        <div class="media">
+                          <i class="fa fa-ship"></i>
+                          <div class="media-body">
+                            <span class="mt-0 fb">Rafting & other activities</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <span><a href="#">More details</a></span>
+                </div>
+              </div>
+
+              <!-- Important Points -->
+
+              <div class="point mt-4">
+                <div class="header">
+                  <h5>Important points</h5>
+                </div>
+                <ul>
+                  <li><i class="fa fa-check-square"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                  <li><i class="fa fa-check-square"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                  <li><i class="fa fa-check-square"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                  <li><i class="fa fa-check-square"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                </ul>
+                <span><a href="#">Additional information</a></span>
+              </div>
+
+              <!-- Payment -->
+
+              <div class="payments mt-4">
+                <div class="header">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="title">
+                        <h5>Payment methods</h5>
+                      </div>
+                    </div>
+
+                    <div class="col-md-5">
+                      <div class="method">
+                        <ul>
+                          <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+                          <li><a href="#"><i class="fa fa-paypal"></i></a></li>
+                          <li><a href="#"><i class="fa fa-bitcoin"></i></a></li>
+                          <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-7">
+                      <form action="">
+                        <select id="inputState" class="form-control">
+                          <option selected>Choose payment method</option>
+                          <option>Mobile Money</option>
+                          <option>Cash</option>
+                          <option>Bitcoin</option>
+                        </select>
+                      </form>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 trm pt-3">
+                      <span>Terms and conditions apply</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <div class="price_detail">
+                <h4>Price Details</h4>
+                <div class="lt">
+                  <div class="amount float-left">
+                    <span class="f1">Ksh 6,000 x 2 adults</span><br>
+                    <span class="f2">Ksh 3,500 x 2 children</span><br><br>
+                    <span class="f3">Total (Ksh)</span>
+                  </div>
+
+                  <div class="total float-right">
+                    <span>Ksh 12,000</span><br>
+                    <span>Ksh 7,000</span><br><br>
+                    <span class="ft">Ksh 19,000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="complete text-center">
+            <a href="#">Complete Payment</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <div class="content-section">
+        <div class="row">
+          <div class="col-md-4 mr d-flex justify-content-center">
+            <span>
+              <h2>Triphapa</h2>
+              <p>It is a long established fact that a reader will be 
+                destructed by the readable content of a page when 
+                looking at its layout
+              </p>
+            </span>
+          </div>
+  
+          <div class="col-md-4 col-5 lnk d-flex justify-content-center ">
+            <ul>
+              <h5>Quick Links</h5>
+              <li> <a href="">Flights</a></li>
+              <li><a href="">Accomodation</a></li>
+              <li><a href="">Transport</a></li>
+              <li><a href="">Experiences</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-7 contact d-flex justify-content-center">
+            <ul>
+              <h5>Contact Us</h5>
+              <li>
+                <i class="fa fa-phone"></i>
+                +254700111222
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                info@triphapa.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-4 social d-flex justify-content-center">
+            <ol>
+              <span class="pr-2">Follow us</span>
+              <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+            </ol>
+          </div>
+
+          <div class="col-md-4"></div>
+
+          <div class="col-md-4 frm">
+            <h5>Newsletter</h5>
+            <form action="">
+              <input type="email" placeholder="Enter your email address">
+              <button class="ft_btn">Submit</button>
+            </form>
+          </div>
+        </div>
+        <hr style="border: 1px solid #fff;">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6 terms">
+            <a href="#">Terms & Conditions</a> |
+            <a href="#">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../js/script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

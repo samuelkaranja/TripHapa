@@ -1,0 +1,2451 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body,html{
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+.content-section{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*........... NavBar .............*/
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.custom-toggler .navbar-toggler-icon { 
+	background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(199, 78, 97)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.bg_white{
+	background-color: #000 !important;
+}
+
+.color{
+    color: #ffffff !important;
+}
+
+.r{
+	color: #fff !important;
+}
+
+.navbar-nav{
+	margin-top: 3px;
+	margin-right: 30px;
+}
+
+.navbar-light .navbar-brand {
+    color: #c74e61;
+    font-size: 35px !important;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: #c74e61;
+}
+
+.navbar-light .navbar-brand:focus {
+    color: #c74e61;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #c74e61;
+    font-size: 20px;
+    font-weight: 300;
+	margin-right: 15px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #c74e61;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c74e61;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #ffffff;
+}
+
+.registration .fa-user-circle{
+	cursor: pointer;
+	font-size: 27px;
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+.registration{
+	margin-top: 5px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.registration i{
+	color: #c74e61;
+	font-size: 25px;
+}
+
+.registration .lg, .registration .rg{
+	color: #c74e61;
+}
+
+.registration .lg:hover, .registration .rg:hover{
+	color: #c74e61;
+}
+
+/*........... Banner ...........*/
+
+.banner {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/zebra.jpg');
+    min-height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bn_txt{
+	padding-top: 200px;
+	padding-left: 80px;
+}
+
+.banner h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner p {
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.bn_btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #fff;
+    color: #c74e61;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    border: none;
+	border-radius: 15px;
+    font-weight: 500;
+    transition: all 300ms ease-in-out .1ms;
+}
+
+.bn_btn:hover {
+    color: #c74e61;
+    text-decoration: none;
+    background: #fff;
+}
+
+/*........... Search .............*/
+
+.search{
+	background-color: #c74e61;
+	padding-bottom: 5px;
+}
+
+.search .nav-tabs{
+	margin-top: -35px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 50px;
+	border: none;
+}
+
+.search .nav-tabs i{
+	color: #c74e61;
+	font-size: 25px;
+	margin-right: 5px;
+}
+
+.search .nav-tabs .nav-link{
+	padding: 20px 0;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: -1px;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.search .nav-tabs .nav-link:hover{
+	border: none;
+}
+
+.search .nav-tabs .nav-link.active{
+	color: #fff !important;
+	background-color: #c74e61;
+	border: none;
+}
+
+.search .nav-tabs .nav-link.active i{
+	color: #fff !important;
+}
+
+.search .nav-tabs .first.active{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.search .nav-tabs .last.active{
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.search .form-group{
+	margin-right: 10px;
+}
+
+.search .dest{
+	margin-right: 30px;
+}
+
+.search .left{
+	float: left;
+	margin-left: 30px;
+}
+
+.search .right{
+	float: right;
+}
+
+.search .dr{
+	margin-right: 35px;
+	margin-top: 3px;
+}
+
+.search .ar{
+	margin-right: 17px;
+	margin-top: 3px;
+}
+
+.search .er{
+	margin-right: 42px;
+	margin-top: 3px;
+}
+
+.search .fr{
+	margin-right: 82px;
+	margin-top: 3px;	
+}
+
+.search form{
+	margin-left: 50px;
+}
+
+.search form label{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.search .form-control{
+	border: none !important;
+}
+
+.search .search_btn{
+	background-color: black;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 25px;
+	margin-top: 28px;
+}
+  
+.search input::-webkit-outer-spin-button,
+.search input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+  
+.search .input-group {
+	clear: both;
+	position: relative;
+	border-radius: 5px;
+}
+  
+.search .input-group input[type='button'] {
+	background-color: #fff;
+	min-width: 20px;
+	width: auto;
+	transition: all 300ms ease;
+	border: none;
+	border-radius: 5px;
+}
+  
+.search .input-group .button-minus,
+.search .input-group .button-plus {
+	font-weight: bold;
+	height: 38px;
+	padding: 0;
+	width: 38px;
+	position: relative;
+	color: #000;
+}
+
+.search .input-group .button-minus:focus,
+.search .input-group .button-plus:focus {
+	border: none;
+	outline: none;
+}
+  
+.search .input-group .quantity-field {
+	position: relative;
+	height: 38px;
+	left: -6px;
+	text-align: center;
+	width: 38px;
+	display: inline-block;
+	font-size: 15px;
+	border: none;
+}
+
+.search .input-group .quantity-field:focus {
+	border: none;
+	outline: none;
+}
+  
+.search .button-plus {
+	left: -13px;
+}
+
+/*.......... Destination and activities ...........*/
+
+.destinations{
+	padding-top: 50px;
+}
+
+.activities{
+	padding-top: 10px;
+}
+
+.section_header h3:before{
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 8px solid #c74e61;
+  top: -15px;
+  width: 150px;
+}
+
+.section_header h3{
+	font-weight: bold;
+}
+
+.wrapper .carousel{
+	max-width: 1400px;
+	margin: auto;
+	padding: 0 30px;
+}
+
+.carousel .card{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	color: #fff;
+	margin: 20px 5px;
+	border-radius: 50px;
+}
+
+.carousel .card .rating{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.fa-heart{
+	font-size: 35px;
+	float: left;
+}
+
+.stars{
+	background-color: #fff;
+	border-radius: 50px;
+	padding: 5px 10px;
+	float: right;
+	margin-right: 50px;
+}
+
+.stars .fa-star{
+	color: orange;
+}
+
+.stars .rt{
+	color: #c74e61;
+	font-weight: bold;
+}
+
+.carousel .card .location{
+	position: absolute;
+	bottom: 25px;
+	left: 15px;
+	display: inline-block;
+	width: 100%;
+}
+
+.carousel .card .location .city{
+	float: left;
+}
+
+.carousel .card .location .city h5{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.carousel .card .location .book{
+	float: right;
+	margin-top: 20px; 
+	margin-right: 30px;
+}
+
+.carousel .card .location .book .c_btn{
+	background-color: #c74e61;
+	color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	font-size: 12px;
+}
+
+.owl-carousel .owl-nav {
+	overflow: hidden;
+	height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #5110e9;
+}
+
+.owl-carousel .item {
+	text-align: center;
+}
+
+.owl-carousel .nav-button {
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	position: absolute;
+	top: 110px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+	pointer-events: none;
+	opacity: 0.25;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: inline-block;
+}
+
+.owl-carousel .owl-prev {
+	left: -50px;
+}
+
+.owl-carousel .owl-next {
+	right: -50px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+	color: #ffffff;
+	font-size: 25px;
+	background: #c74e61;
+	border-radius: 50px;
+	margin-top: 110px;
+}
+
+.owl-carousel .prev-carousel:hover {
+	background-position: 0px -53px;
+}
+
+.owl-carousel .next-carousel:hover {
+	background-position: -24px -53px;
+}
+
+
+/*......... Article ............*/
+
+.article{
+	width: 100%;
+	height: 65vh;
+	padding-top: 60px;
+}
+
+.article .art {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../images/travel.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	min-height: 50vh;
+	width: 100%;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+.article .article_text{
+	position: absolute;
+	top: 20%;
+	left: 3%;
+}
+
+.article .article_text h2{
+	color: #fff;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.article .article_text p{
+	color: #fff;
+}
+
+.article .article_text .article_btn{
+	background: #c74e61;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 10px;
+	padding: 15px 20px;
+}
+
+/*......... Experience Banner ..........*/
+
+.section_header h3:before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 8px solid #c74e61;
+    top: -15px;
+    width: 150px;
+  }
+  
+  .section_header h3{
+    font-weight: bold;
+  }
+  
+  .experience_banner{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/zebra.jpg');
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .experience_banner .sh{
+    text-align: center;
+  }
+  
+  .experience_banner .sh input{
+    margin-top: 250px;
+    width: 40%;
+    border: none;
+    border: 2px solid #c74e61;
+    outline: none;
+    border-radius: 50px;
+    padding: 27px 0 20px 30px;
+  }
+  
+  .experience_banner .sh input::placeholder{
+      font-size: 18px;
+  }
+  
+  .experience_banner .sh .button{
+      background-color: #c74e61;
+      padding: 25px 35px 22px 35px;
+      font-size: 20px;
+      margin-left: -90px;
+      color: #fff;
+      border-radius: 50px;
+  }
+
+  /*......... Popular Experiences ..........*/
+
+.popular_experiences{
+	margin-top: 50px;
+}
+
+.experience_card .card{
+	/* background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/zebra.jpg'); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	color: #fff;
+	margin: 20px 5px;
+	border-radius: 30px;
+}
+
+.experience_card .card .rating{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.popular_experiences .heart {
+    float: left;
+}
+
+.popular_experiences .heart .fa-heart{
+	font-size: 30px;
+}
+
+.popular_experiences .stars {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px 10px;
+    float: right;
+    margin-right: 40px;
+}
+
+.popular_experiences .stars .fa-star {
+    color: orange;
+}
+
+.popular_experiences .stars .rt {
+    color: #c74e61;
+    font-weight: bold;
+}
+
+.experience_card .card .location{
+	position: absolute;
+	bottom: 25px;
+	left: 15px;
+	display: inline-block;
+	width: 100%;
+}
+
+.experience_card .card .location .city span{
+	font-weight: 500;
+}
+
+.experience_card .card .location .city h5{
+	font-weight: 700;
+}
+
+.popular_experiences .show a{
+	color: #c74e61;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+.popular_experiences .fa-arrow-circle-right{
+	font-size: 20px;
+	margin-left: 8px;
+}
+
+/*......... Popular Experience List Page .......*/
+
+.popular_list{
+	margin-top: 140px;
+	margin-bottom: 30px;
+}
+
+.popular_list .pl{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.popular_list .pl input {
+    width: 50%;
+    border: none;
+    border: 2px solid #c74e61;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px 0 10px 30px;
+}
+
+.popular_list .pl .button {
+    background-color: #c74e61;
+    padding: 9px 20px 12px 20px;
+    font-size: 20px;
+    margin-left: -63px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.popular_list .hd h3{
+	font-weight: 700;
+}
+
+.popular_list .ps{
+	border: 1px solid black;
+	border-radius: 50px;
+}
+
+.popular_list .flt{
+	box-shadow: 0 10px 20px rgb(199, 78, 97, 0.19), 0 6px 6px rgb(199, 78, 97, 0.19);
+	border-radius: 20px;
+	padding: 25px 40px 0 40px;
+	margin-top: 12px;
+}
+
+.popular_list .flt .head{
+	font-weight: 700;
+}
+
+.popular_list .flt .list1 p, .popular_list .flt .list2 p{
+	font-weight: 700;
+	margin-bottom: 5px !important;
+}
+
+.popular_list .popular_card .card{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 380px;
+	color: #fff;
+	margin: 10px 5px;
+	border-radius: 30px;
+}
+
+.popular_list .popular_card .card .rating{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.popular_list .popular_card .heart {
+    float: left;
+}
+
+.popular_list .popular_card .heart .fa-heart{
+	font-size: 30px;
+}
+
+.popular_list .popular_card .stars {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px 10px;
+    float: right;
+    margin-right: 40px;
+}
+
+.popular_list .popular_card .stars .fa-star {
+    color: orange;
+}
+
+.popular_list .popular_card .stars .rt {
+    color: #c74e61;
+    font-weight: bold;
+}
+
+.popular_list .popular_card .card .location{
+	position: absolute;
+	bottom: 25px;
+	left: 15px;
+	display: inline-block;
+	width: 100%;
+}
+
+.popular_list .popular_card .card .location .city span{
+	font-weight: 500;
+}
+
+.popular_list .popular_card .card .location .city h5{
+	font-weight: 700;
+}
+
+.popular_list .load{
+	text-align: center;
+	margin-top: 20px
+}
+
+.popular_list .load a{
+	background-color: #c74e61;
+	border-radius: 50px;
+	padding: 10px 20px;
+	color: #fff;
+}
+
+/*........ Popular Regions ..........*/
+
+.popular_regions{
+	margin-top: 70px;
+}
+
+.popular_regions .regions{
+	margin-top: 30px;
+}
+
+.popular_regions .regions{
+	position: relative;
+	width: 90%;
+	height: 20vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 30px;
+}
+
+.popular_regions .regions h6{
+	position: absolute;
+	top: 70px; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	display: flex;
+	justify-content: center; 
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*.......... Activity Categories .........*/
+
+.activity_categories{
+	margin-top: 60px;
+}
+
+.activity_categories .activity{
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.activity_categories .activity h6{
+	position: absolute;
+	top: 62px; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	display: flex;
+	justify-content: center; 
+	color: #fff;
+	font-weight: bold;
+}
+
+/*....... Experience Article .........*/
+
+.experience_article{
+	width: 100%;
+	height: 60vh;
+	margin-top: 70px;
+}
+
+.experience_article .art {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../images/beach.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	min-height: 50vh;
+	width: 100%;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+.experience_article .article_text{
+	position: absolute;
+	top: 20%;
+	left: 3%;
+}
+
+.experience_article .article_text h2{
+	color: #fff;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.experience_article .article_text p{
+	color: #fff;
+}
+
+.experience_article .article_text .article_btn{
+	background: #c74e61;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 10px;
+	padding: 15px 20px;
+}
+
+/*......... Details Page ...........*/
+
+.detail{
+	position: relative;
+	margin-top: 130px;
+}
+
+.detail .b_link .back{
+	color: #000;
+}
+
+.detail .b_link .lnk{
+	padding-right: 50px;
+}
+
+.detail .b_link .lnk .fa{
+	font-size: 20px;
+	padding-right: 5px;
+	float: none;
+}
+
+.detail .b_link .share, .detail .b_link .save{
+	color: #000;
+}
+
+.detail .b_link .share{
+	margin-right: 20px;
+}
+
+.detail .d_img{
+	margin-top: 15px;
+}
+
+.detail .d_img .activity{
+	height: 45vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 25px;
+}
+
+.detail .p_btn{
+	margin-top: 25px;
+}
+
+.detail .p_btn a{
+	border: 1px solid black;
+	border-radius: 50px;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px 18px;
+	color: #000;
+}
+
+.detail .info{
+	margin-top: 40px;
+}
+
+.detail .hd .fa{
+	color: orange;
+}
+
+.detail .hd .location .lc{
+	color: #c74e61;
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.detail .hd .location .town{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/*........ Description ........*/
+
+.detail .info .description .header h5{
+	font-weight: 700;
+	padding-top: 15px;
+}
+
+.detail .info .description .txt p{
+	word-break: break-word;
+}
+
+/*.......... Activities .........*/
+
+.detail .activity{
+	margin-top: 20px;
+}
+
+.detail .activity .header h5{
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+
+.detail .activity ul{
+	list-style-type: none;
+}
+
+.detail .activity ul li{
+	margin-bottom: 10px;
+}
+
+.detail .activity ul li .fa{
+	font-size: 23px;
+	margin-right: 5px;
+}
+
+/*.......... What is included .........*/
+
+.detail .include .header h5{
+	font-weight: 500;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.detail .list .offer{
+	margin-bottom: 30px;
+}
+
+.detail .list .offer .media .fa{
+	margin-right: 20px;
+	font-size: 25px;
+}
+
+.detail .list .offer .media .fb{
+	font-weight: 700;
+}
+
+/*......... More Information .........*/
+
+.detail .more .header h6{
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.detail .more .txt p{
+	word-break: break-word;
+}
+
+/*.......... Location .........*/
+
+.detail .map .header h6{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 0;
+}
+
+/*......... Reviews .......*/
+
+.detail .review .header h6{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.detail .review .rv .mr{
+	margin-right: 100px;
+}
+
+.detail .review .rv .rw{
+	padding-top: 15px;
+}
+
+.detail .review .rv .account-img{
+	height: 65px; 
+	width: 65px; 
+	object-fit: cover;
+}
+
+/*.......... Booking Form ..........*/
+
+.detail .booking h5{
+	font-weight: bold;
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+
+.detail .booking .frm{
+	height: 61vh;
+	border: 1px solid grey;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+.detail .booking .frm .pr span{
+	display: block;
+}
+
+.detail .booking .frm .pr .s1{
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.detail .booking .frm .pr .s2{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.detail .booking .frm .pr .s3{
+	padding-bottom: 20px;
+}
+
+.detail .booking .frm .td{
+	float: left;
+	text-align: center;
+}
+
+.detail .booking .frm .dt{
+	float: right;
+	text-align: center;
+}
+
+.detail .booking .frm .td span, .detail .booking .frm .dt span{
+	display: block;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.detail .booking .frm .td a, .detail .booking .frm .dt a{
+	display: block;
+	border: 1px solid black;
+	border-radius: 25px;
+	color: #000;
+	font-size: 14px;
+	padding: 3px 45px;
+	margin-bottom: 10px;
+}
+
+.detail .booking .choice{
+	margin-top: 120px;
+}
+
+.detail .booking .choice .head{
+	font-weight: 500;
+}
+
+.detail .booking .choice .select1{
+	margin-top: 8px;
+}
+
+.detail .booking .choice .select1 .adult, .detail .booking .choice .select2 .children{
+	font-weight: 600;
+}
+
+.detail .booking .amount .total{
+	font-weight: 500;
+}
+
+.detail .booking .amount .ct button{
+	border: none;
+	border-radius: 50px;
+	padding: 10px 50px;
+	margin-bottom: 3px;
+	background-color: #c74e61;
+	color: #fff;
+}
+
+.detail .booking .amount .ct .link{
+	color: #fff;
+}
+
+.detail .booking .amount .ct .cart{
+	color: #000;
+	text-decoration: underline !important;
+	padding-left: 30px;
+}
+
+.detail .input-group input[type='button'] {
+	background-color: #000;
+	min-width: 20px;
+	width: auto;
+	transition: all 300ms ease;
+	border: none;
+	border-radius: 5px;
+}
+  
+.detail .input-group .button-minus,
+.detail .input-group .button-plus {
+	font-weight: bold;
+	height: 30px;
+	margin-top: 3px;
+	padding: 0;
+	width: 38px;
+	position: relative;
+	color: #fff;
+}
+
+.detail .input-group .button-minus:focus,
+.detail .input-group .button-plus:focus {
+	border: none;
+	outline: none;
+}
+  
+.detail .input-group .quantity-field {
+	position: relative;
+	text-align: center;
+	width: 60px;
+	display: inline-block;
+	font-size: 15px;
+	border: none;
+}
+
+.detail .input-group .quantity-field:focus {
+	border: none;
+	outline: none;
+}
+  
+.detail .button-plus {
+	left: -13px;
+}
+
+/*........... Similar Experiences ...........*/
+
+.detail .similar .s_experiences{
+	position: relative;
+	width: 90%;
+	height: 15vh;
+	border-radius: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.detail .similar .header h5{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.detail .similar .s_experiences h5{
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+/*......... CheckOut Page ..........*/
+
+.checkout{
+	margin-top: 130px;
+	margin-bottom: 70px;
+}
+
+.check_header h4{
+	color: #c74e61;
+    font-weight: bold;
+}
+
+.check_title{
+	padding-top: 12px;
+	font-weight: 700;
+}
+
+.check .c_hd .fa-star {
+    color: orange !important;
+}
+
+.check .c_hd .location .lc {
+    color: #c74e61;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.check .c_hd .location .town {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.check .guests{
+	margin-top: 20px;
+	width: 300px;
+}
+
+.check .guests .title{
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+
+.check .guests .cd{
+	margin-top: 70px;
+}
+
+.check .guests .adt span, .check .guests .cd span{
+	font-weight: 500;
+}
+
+.check .guests .input-group input[type='button'] {
+	background-color: #000;
+	min-width: 20px;
+	width: auto;
+	transition: all 300ms ease;
+	border: none;
+	border-radius: 5px;
+}
+  
+.check .guests .input-group .button-minus,
+.check .guests .input-group .button-plus {
+	font-weight: bold;
+	height: 30px;
+	margin-top: 3px;
+	padding: 0;
+	width: 38px;
+	position: relative;
+	color: #fff;
+}
+
+.check .guests .input-group .button-minus:focus,
+.check .guests .input-group .button-plus:focus {
+	border: none;
+	outline: none;
+}
+  
+.check .guests .input-group .quantity-field {
+	position: relative;
+	text-align: center;
+	width: 60px;
+	display: inline-block;
+	font-size: 15px;
+	border: none;
+}
+
+.check .guests .input-group .quantity-field:focus {
+	border: none;
+	outline: none;
+}
+  
+.check .guests .button-plus {
+	left: -13px;
+}
+
+.check .included{
+	margin-top: 15px;
+}
+
+.check .included .header h5{
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.check .included .media{
+	margin-bottom: 15px;
+}
+
+.check .included .fa{
+	font-size: 25px;
+	color: #000;
+	margin-right: 10px;
+}
+
+.check .point{
+	margin-top: 10px;
+}
+
+.check .point .header h5{
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.check .point ul{
+	list-style-type: none;
+}
+
+.check .point ul li{
+	padding-bottom: 10px;
+}
+
+.check .point ul .fa-check-square{
+	font-size: 20px;
+	color: #000;
+	margin-right: 5px;
+}
+
+.check .payments .header .title h5{
+	font-weight: bold;
+}
+
+.check .payments .header .method ul{
+	list-style-type: none;
+}
+
+.check .payments .header .method ul li{
+	display: inline-block;
+	padding-right: 20px;
+	color: #c74e61;
+}
+
+.check .payments .header .method ul li .fa{
+	color: #c74e61;
+}
+
+.check .price_detail{
+	height: 24vh; 
+	border: 1px solid black; 
+	border-radius: 20px; 
+	padding: 20px;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.check .price_detail h4{
+	font-weight: bold;
+}
+
+.check .price_detail .lt .amount .f3{
+	font-weight: bold;
+}
+
+.check .price_detail .lt .total .ft{
+	font-weight: bold;
+	color: #c74e61;
+}
+
+.check .complete{
+	margin-top: 40px;
+}
+
+.check .complete a{
+	color: #fff;
+	border-radius: 50px;
+	padding: 10px 60px;
+	background-color: #c74e61;
+}
+
+/*......... Profile Page .........*/
+
+.profile{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.profile .header{
+    margin-bottom: 30px;
+}
+
+.profile .header h2{
+    color: #c74e61;
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+.profile .list{
+    margin-top: 0;
+}
+
+.profile .list ul{
+    list-style-type: none;
+}
+
+.profile .list ul li{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.profile .list ul li a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile .list ul li .fa{
+    padding: 5px 15px;
+    font-size: 22px;
+}
+
+.profile .details .user{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 20px;
+    padding: 20px 15px;
+}
+
+.profile .details .user .u_img{
+    display: flex;
+    justify-content: center;
+}
+
+.profile .details .user img{
+    width: 120px; 
+    height: 120px; 
+    border-radius: 100px; 
+    object-fit: cover;
+}
+
+.profile .details .user .in{
+    margin-top: 10px;
+}
+
+.profile .details .user .in h4{
+    color: #c74e61;
+    font-weight: bold;
+}
+
+.profile .details .user .in span{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile .details .user .cm{
+    margin-top: 40px;
+}
+
+.profile .details .user .cm span{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.profile .details .sr_btn{
+    text-align: center;
+    margin: 35px;
+}
+
+.profile .details .sr_btn a{
+    color: #000000;
+    font-size: 16px;
+}
+
+.profile .details .sr_btn a:focus{
+    color: #ffffff;
+}
+
+.profile .details .sr_btn .sr1{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 12px 45px;
+    margin-right: 50px;
+}
+
+.profile .details .sr_btn .sr2{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 12px 40px;
+}
+
+.profile .details .sr_btn .sr1:focus, .profile .details .sr_btn .sr2:focus{
+    background-color: #c74e61;
+    border: none
+}
+
+.profile .details .exp_list{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+
+.profile .details .exp_list .user_exp_list{
+    border: 2px solid #a9a9a9;
+    border-radius: 20px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.profile .details .exp_list .user_exp_list .exp_img img{
+    width: 140px;
+    height: 130px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.profile .details .exp_list .user_exp_list .exp_list_details h4{ 
+    font-weight: 700;
+}
+
+.profile .details .exp_list .user_exp_list .exp_list_details .location .lc{
+    color: #c74e61;
+	font-weight: bold;
+}
+
+.profile .details .exp_list .user_exp_list .exp_list_details .location .fa-star{
+    color: orange;
+}
+
+.profile .details .exp_list .user_exp_list .exp_list_details .dt{
+    margin-top: 5px;
+}
+
+.profile .details .exp_list .user_exp_list .exp_list_details .dt span{
+    display: block;
+}
+
+.profile .details .exp_list .more{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile .details .exp_list a{
+    border-radius: 50px;
+    background-color: #c74e61;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+/*.......... Login Page .........*/
+
+.login{
+	background-image: url('../images/zebra.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 150px 0;
+}
+
+.log {
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 50px 0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login .log h3{
+	color: #c74e61;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+
+.login .log h3:after{
+	content:'';
+  	display: block;
+	padding-bottom: 7px;
+  	width: 50%; 
+	height:100%;
+  	border-bottom:1px solid #000;
+}
+  
+.log_frm {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 0;
+}
+
+.log_frm h6{
+	color: #c74e61;
+	font-weight: bold;
+	padding-bottom: 3px;
+	text-align: center;
+}
+  
+.log_frm input{
+	border-radius: 50px;
+	padding: 18px 80px 18px 30px;
+	border: 2px solid grey;
+}
+
+.log_frm input:focus{
+	outline: none;
+}
+
+.log_frm .lg_btn{
+	background-color: #c74e61;
+	color: #ffffff;
+	border: none;
+	border-radius: 50px;
+	padding: 7px 30px;
+	float: left;
+}
+
+.log_frm .rg_btn{
+	color: #c74e61;
+	text-decoration: underline !important;
+	font-weight: bold;
+	float: right;
+	padding-top: 13px;
+}
+
+.vertical-divider {
+	position: absolute;
+	display: table;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+.center-element{
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	color: #c74e61;
+	font-weight: bold;
+}
+
+.center-element::before{
+	position: absolute;
+	content: "";
+	width: 1px;
+	left: 50%;
+	border-left: 2px solid lightgrey;
+	bottom: 50%;
+	top: 0;
+	margin-bottom: 20px;
+}
+
+.center-element::after{
+	position: absolute;
+	content: "";
+	width: 1px;
+	left: 50%;
+	border-left: 2px solid lightgrey;
+	top: 50%;
+	bottom: 0;
+	margin-top: 20px;
+}
+
+.social-login {
+	padding-top: 80px;
+}
+  
+.social-links {
+	padding-left: 30px;
+	position: relative;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.19);
+	border-radius: 50px;
+	padding: 15px 70px 10px 25px;
+	width: 80%;
+	height: 6vh;
+}
+
+.social-login .social-links a{
+	color: #000000;
+}
+
+.social-login .social-links a i{
+	font-size: 22px;
+	padding-left: 30px;
+	float: left;
+}
+
+.social-login .social-links a span{
+	font-weight: bold;
+	padding-right: 20px;
+	float: right;
+}
+
+/*........... Register Page ..........*/
+
+.register{
+	background-image: url('../images/zebra.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+}
+
+.register .reg{
+	background-color: #ffffff;
+	border-radius: 20px;
+	width: 100%;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.register .reg  h3{
+	color: #c74e61;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.register .reg h3:after{
+	content:'';
+  	display: block;
+	padding-bottom: 5px;
+  	width: 55%; 
+	height:100%;
+  	border-bottom:1px solid #000;
+}
+
+.register .reg .reg_frm{
+	width: 80%;
+	margin: 0 auto;	
+}
+
+.register .reg .reg_frm h5{
+	text-align: center;
+	color: #c74e61;
+	font-weight: bold;
+}
+
+.register .reg .reg_frm input{
+	border-radius: 20px;
+	border: 2px solid grey;
+	padding: 20px 0 20px 20px;
+}
+
+.register .reg .reg_frm input:focus{
+	outline: none;
+}
+
+.register .reg .reg_frm span{
+	text-align: center;
+}
+
+.register .reg .reg_frm a{
+	color: #c74e61;
+	font-weight: bold;
+}
+
+.register .reg .reg_frm .btn{
+	background-color: #c74e61;
+	color: #ffffff;
+	border-radius: 50px;
+	padding: 10px 0;
+	font-size: 16px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+/*........... Footer ...........*/
+
+.footer{
+	background: #333;
+	color: #fff;
+	padding: 30px 0;
+}
+
+.footer h2{
+	color: #c74e61;
+}
+
+.footer ul li{
+	list-style-type: none;
+}
+
+.footer .lnk, .footer .contact{
+	margin-top: 15px;
+}
+
+.footer .lnk a{
+	color: #fff;
+}
+
+.footer ol span{
+	font-size: 20px;
+}
+
+.footer ol li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.footer ol li a{
+	text-decoration: none;
+	color: lightgrey;
+	padding-right: 20px;
+	font-size: 30px;
+}
+
+.footer .contact i{
+	padding-right: 15px;
+}
+
+.footer .social{
+	margin-top: 25px;
+}
+
+.footer .social .pr_2{
+	font-size: 18px;
+}
+
+.footer .frm input{
+	outline: none;
+	border: none;
+	padding: 8px 40px 8px 10px;
+}
+
+.footer .ft_btn{
+	background: #c74e61;
+	color: #fff;
+	border: none;
+	padding: 8px 15px;
+	font-weight: 400;
+}
+
+.footer .terms{
+	text-align: right;
+}
+
+.footer .terms a{
+	color: #fff;
+}
+
+/*......... Tablet Mode ..........*/
+
+  @media only screen and (max-width: 768px) and (min-width: 426px) {
+
+	.content-section{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	/*....... Banner ........*/
+
+	.banner {
+		min-height: 70vh;
+	}
+
+	.bn_txt {
+		padding-top: 130px;
+		padding-left: 20px;
+	}
+
+	/*....... Search ........*/
+
+	.search .nav-tabs i {
+		font-size: 20px;
+		margin-right: 3px;
+		margin-left: 20px;
+	}
+
+	.search .nav-tabs .nav-link {
+		font-size: 13px;
+		font-weight: 700;
+		/*padding: 15px 0;*/
+	}
+
+	.search .search_btn {
+		padding: 5px 10px;
+		margin-top: 34px;
+	}
+
+	.search .tab-content .form-row{
+		display: block;
+	}
+
+	.search .dr {
+    	margin-right: 12px;
+	}
+
+	.search .ar {
+    	margin-right: 10px;
+	}
+
+	.search .er {
+    	margin-right: 18px;
+	}
+
+	.search .fr {
+    	margin-right: 45px;
+	}
+
+	/*......... Destinations .......*/
+
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+
+	.owl-carousel .owl-prev {
+		left: -10px;
+	}
+
+	.owl-carousel .owl-next {
+		right: -10px;
+	}
+
+	/*.......... Article ..........*/
+
+	.article .article_text {
+		top: 4%;
+	}
+
+	.article .article_text p {
+		margin-bottom: 0 !important;
+	}
+
+    /*......... Experience Banner .........*/
+
+	.experience_banner .sh input {
+		margin-top: 250px;
+		width: 70%;
+	}
+
+	/*......... Popular Experiences ........*/
+
+	.experience_card .card {
+		height: 300px;
+	}
+
+	.popular_experiences .rw{
+		padding: 0 !important;
+	}
+
+	.experience_article .article_text {
+		top: 3%;
+	}
+
+	/*........ Popular Experiences List Page .......*/
+
+	.pr{
+		padding-right: 0;
+	}
+
+	.popular_list .pl input {
+		width: 70%;
+	}
+
+	.popular_list .flt {
+		padding: 20px 0 0 10px;
+	}
+
+	.popular_list .popular_card .card {
+		height: 300px;
+		margin: 10px -5px;
+	}
+
+	.popular_list .popular_card .card .location {
+		left: 10px;
+	}
+
+	.popular_list .popular_card .card .location .city h5 {
+		font-size: 14px;
+	}
+
+	/*.......... Popular Regions ..........*/
+
+	.popular_regions .regions h6 {
+	    top: 65px;
+	}
+
+	/*........ Activity Categories ..........*/
+
+	.activity_categories .activity h6 {
+	    top: 48px;
+	}
+
+    /*........ Detail Page ........*/
+
+    .detail .review .rv .mr {
+        margin-right: 65px;
+    }
+
+    .detail .similar .s_experiences {
+        width: 100%;
+        height: 15vh;
+        border-radius: 20px;
+    }
+
+    .detail .similar .s_experiences h5 {
+        padding-top: 35px;
+    }
+
+    .detail .booking .frm {
+        padding: 12px;
+    }
+
+    .detail .booking .frm .td a, .detail .booking .frm .dt a {
+        padding: 3px 30px;
+    }
+
+    /*.......... Checkout Page .........*/
+
+    .check .price_detail {
+        width: 95%;
+    }
+
+    /*.... Profile Page ......*/
+
+    .profile .list ul li {
+        width: 100%;
+        padding: 8px 0;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .profile .list ul li a {
+        font-size: 15px;
+    }
+
+    .profile .list ul li .fa {
+        display: block;
+    }
+
+    .profile .details .user .u_img{
+        display: block;
+    }
+
+    .profile .details .user img {
+        border-radius: 30px;
+    }
+
+    .profile .details .sr_btn .sr1 {
+        margin-right: 0;
+    }
+
+    .profile .details .exp_list {
+        padding: 20px 10px;
+    }
+
+    .profile .details .exp_list .user_exp_list .exp_img img {
+        width: 120px;
+        height: 120px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+	/*.......... Register Page .........*/
+
+	.register .reg .reg_frm {
+		width: 100%;
+	}
+
+	.social-login .social-links a i {
+		padding-left: 0px;
+	}
+
+	/*.......... Login Page .........*/
+
+	.log {
+		width: 100%;
+	}
+
+	.log_frm {
+		width: 90%;
+	}
+
+	.social-links {
+		width: 100%;
+		height: 7vh;
+		padding: 15px 20px 10px 25px;
+	}
+
+	/*........ Footer .......*/
+
+	.footer ol li a {
+		padding-right: 5px;
+	}
+}
+
+/*......... Mobile Phone ............*/
+
+@media only screen and (max-width: 425px) {
+	.content-section{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	/*...... NavBar .......*/
+
+	.navbar-light .navbar-toggler{
+		border-color: #fff;
+		border-radius: 0;
+		margin-right: 20px;
+	}
+
+	/*....... Banner ........*/
+
+	.banner {
+		min-height: 60vh !important;
+	}
+
+	.bn_txt {
+		padding-top: 120px;
+		padding-left: 20px;
+	}
+
+	.banner h2 {
+		font-size: 30px;
+		font-weight: 500;
+	}
+
+	.banner p {
+		margin-top: 5px;
+	}
+
+	.bn_btn {
+		margin-top: 15px;
+		padding: 10px 20px;
+	}
+
+	/*......... Search ..........*/
+
+	.search form {
+		margin-left: 0;
+	}
+
+	.search .nav-tabs {
+		margin-top: 0;
+		border: 0;
+		border-radius: 0;
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.search .nav-tabs .nav-link {
+		text-align: left;
+		padding-left: 10px;
+		padding-top: 25px;
+		padding-bottom: 40px;
+	}
+
+	.search .nav-tabs .nav-link.active {
+		border: none;
+	}
+
+	.search .nav-tabs .first.active {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+	.search .nav-tabs .last.active {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	.search .left{
+		float: left;
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	
+	.search .right{
+		float: left;
+	}
+
+	/*........ Destination .........*/
+
+	.owl-carousel .owl-prev {
+		left: -10px;
+	}
+	
+	.owl-carousel .owl-next {
+		right: -10px;
+	}
+
+	/*........... Article ...........*/
+
+	.article .article_text {
+		left: 0;
+		top: 15%;
+	}
+
+    /*........... Experience Banner ...........*/
+
+	.experience_banner .sh input {
+		margin-top: 230px;
+		width: 95%;
+	}
+
+	/*.......... Popular Experiences ..........*/
+
+	.popular_regions .regions {
+		width: 100%;
+	}
+
+	.experience_article .art {
+		min-height: 57vh;
+	}
+
+	.popular_experiences .rw{
+		padding: 0 20px !important;
+	}
+
+	.experience_article .article_text {
+	    top: 10%;
+	}
+
+	/*....... Popular Expereiences List Page .......*/
+
+	.popular_list .flt {
+		margin-bottom: 20px;
+	}
+
+	.popular_list .pl input {
+		width: 80%;
+	}
+
+	.popular_list .ps {
+		margin-top: 10px;
+	}
+
+    /*...... Activity Categories ........*/
+
+    .activity_categories .activity h6 {
+        top: 46px;
+    }
+
+	/*......... Detail .......*/
+
+	.detail .b_link .lnk {
+		padding-right: 25px;
+		padding-top: 10px;
+	}
+
+	.detail .d_img {
+		margin-top: 5px;
+	}
+
+	.detail .list .offer{
+		margin-bottom: 10px;
+	}
+
+	.detail .list .offer .media{
+		margin-bottom: 15px;
+	}
+
+	.detail .review .rv .mr {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.detail .booking .frm {
+		height: 70vh;
+	}
+
+	.detail .input-group input[type='button'] {
+		margin-left: 13px;
+	}
+
+	.detail .similar .s_experiences {
+		width: 100%;
+		height: 25vh;
+		border-radius: 30px;
+	}
+
+	.detail .similar .s_experiences h5 {
+		padding-top: 75px;
+	}
+
+	/*......... CheckOut ........*/
+
+	.check .price_detail {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+    /*.......... Profile Page ..........*/
+
+    .profile {
+        margin-top: 110px;
+    }
+
+    .profile .info .header h3{
+        text-align: center;
+    }
+
+    .profile .list ul li{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .profile .details .user {
+        margin-top: 15px;
+    }
+
+    .profile .details .user .in {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .profile .details .user .cm {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .profile .details .sr_btn .sr1 {
+        margin-right: 0;
+        padding: 12px 35px;
+    }
+
+    .profile .details .exp_list {
+        padding: 20px;
+    }
+
+    .profile .details .exp_list .user_exp_list {
+        padding: 10px 20px;
+    }
+
+    .profile .details .exp_list .user_exp_list .exp_img{
+        text-align: center;
+    }
+
+    .profile .details .exp_list .user_exp_list .exp_img img{
+        width: 200px;
+        height: 150px;
+    }
+
+    .profile .details .exp_list .user_exp_list .exp_list_details{
+        margin-top: 15px;
+    }
+
+	/*.......... Register Page .........*/
+
+	.register {
+		padding: 120px 0;
+	}
+
+	.register .reg {
+		padding: 20px;
+	}
+
+	.register .reg .reg_frm {
+		width: 100%;
+	}
+
+	.social-links {
+		padding: 15px 70px 10px 25px;
+		width: 90%;
+		height: 7vh;
+	}
+
+	.vertical-divider {
+		margin: 30px 0;
+	}
+
+	.center-element {
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+
+	/*.......... Login Page ..........*/
+
+	.login {
+		padding: 130px 0;
+	}
+
+	.log {
+		width: 100%;
+	}
+
+	.login .log h3 {
+		padding-left: 20px;
+	}
+
+	.log_frm {
+		width: 90%;
+	}
+
+	.social-links {
+		width: 100%;
+	}
+
+	.social-login .social-links a i {
+		padding-left: 0;
+	}
+
+	/*........... Footer ...........*/
+
+	.footer .mr{
+		margin-left: 20px;
+	}
+
+	.footer .frm{
+		margin-top: 15px;
+		margin-left: 30px;
+	}
+
+  }
